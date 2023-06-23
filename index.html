@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<html lang="eng">
+<html lang="esp">
     <head>
         <title>Calculadora Colas</title>
         <link rel="icon" type="image/png" href="assets/logo.png">
@@ -12,52 +12,173 @@
         <div class="container">
             <div class="selector">
                 <h1 id="M/M/1" class="option">M/M/1</h1>
+                <h1 id="M/M/1-finite" class="option">M/M/1 finito</h1>
                 <h1 id="M/M/m" class="option">M/M/m</h1>
                 <h1 id="M/D/1" class="option">M/D/1</h1>
             </div>
 
-            <form id="form">
+            <form id="form-1">
                 <fieldset>
-                    <div class="form-group">
-                        <label>m</label>
-                        <label>
-                            <input type="text" name="m" placeholder="">
-                        </label>
-                    </div>
                     <div class="form-group">
                         <label>&#xB5;</label>
                         <label>
-                            <input type="text" name="μ" placeholder="">
+                            <input type="number" id="mu1"  placeholder="" step="0.01">
                         </label>
                     </div>
                     <div class="form-group">
                         <label>&#x39B;</label>
                         <label>
-                            <input type="text" name="λ" placeholder="">
+                            <input type="number" id="lambda1"  placeholder="" step="0.01">
                         </label>
                     </div>
                     <div class="form-group">
                         <label>K</label>
                         <label>
-                            <input type="text" name="K" placeholder="">
+                            <input type="number" id="K1"  placeholder="" step="0.01">
                         </label>
                     </div>
                     <div class="form-group">
                         <label>Tiempo</label>
                         <label>
-                            <input type="text" name="time" placeholder="">
+                            <input type="number" id="time1"  placeholder="" step="0.01">
                         </label>
                     </div>
                     <div class="form-group">
                         <label>Cw</label>
                         <label>
-                            <input type="text" name="cw" placeholder="">
+                            <input type="number" id="cw1"  placeholder="" step="0.01">
                         </label>
                     </div>
                     <div class="form-group">
                         <label>Cs</label>
                         <label>
-                            <input type="text" name="cs" placeholder="">
+                            <input type="number" id="cs1"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <button type="submit">Calcular</button>
+                </fieldset>
+            </form>
+
+            <form id="form-2">
+                <fieldset>
+                    <div class="form-group">
+                        <label>&#xB5;</label>
+                        <label>
+                            <input type="number" id="mu2"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>&#x39B;</label>
+                        <label>
+                            <input type="number" id="lambda2"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>N</label>
+                        <label>
+                            <input type="number" id="n2"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Tiempo</label>
+                        <label>
+                            <input type="number" id="time2"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Cw</label>
+                        <label>
+                            <input type="number" id="cw2"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Cs</label>
+                        <label>
+                            <input type="number" id="cs2"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <button type="submit">Calcular</button>
+                </fieldset>
+            </form>
+
+            <form id="form-3">
+                <fieldset>
+                    <div class="form-group">
+                        <label>m</label>
+                        <label>
+                            <input type="number" id="m3"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>&#xB5;</label>
+                        <label>
+                            <input type="number" id="mu3"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>&#x39B;</label>
+                        <label>
+                            <input type="number" id="lambda3"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>n</label>
+                        <label>
+                            <input type="number" id="n3"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Tiempo</label>
+                        <label>
+                            <input type="number" id="time3"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Cw</label>
+                        <label>
+                            <input type="number" id="cw3"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Cs</label>
+                        <label>
+                            <input type="number" id="cs3"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <button type="submit">Calcular</button>
+                </fieldset>
+            </form>
+
+            <form id="form-4">
+                <fieldset>
+                    <div class="form-group">
+                        <label>&#xB5;</label>
+                        <label>
+                            <input type="number" id="mu4"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>&#x39B;</label>
+                        <label>
+                            <input type="number" id="lambda4"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Tiempo</label>
+                        <label>
+                            <input type="number" id="time4"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Cw</label>
+                        <label>
+                            <input type="number" id="cw4"  placeholder="" step="0.01">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Cs</label>
+                        <label>
+                            <input type="number" id="cs4"  placeholder="" step="0.01">
                         </label>
                     </div>
                     <button type="submit">Calcular</button>
