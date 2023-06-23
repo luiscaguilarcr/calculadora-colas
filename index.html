@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="eng">
+    <head>
+        <title>Calculadora Colas</title>
+        <link rel="icon" type="image/png" href="assets/logo.png">
+        <link rel="apple-touch-icon" href="assets/logo.png">
+        <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="selector">
+                <h1 id="M/M/1" class="option">M/M/1</h1>
+                <h1 id="M/M/m" class="option">M/M/m</h1>
+                <h1 id="M/D/1" class="option">M/D/1</h1>
+            </div>
+
+            <form id="form">
+                <fieldset>
+                    <div class="form-group">
+                        <label>m</label>
+                        <label>
+                            <input type="text" name="m" placeholder="">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>&#xB5;</label>
+                        <label>
+                            <input type="text" name="μ" placeholder="">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>&#x39B;</label>
+                        <label>
+                            <input type="text" name="λ" placeholder="">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>K</label>
+                        <label>
+                            <input type="text" name="K" placeholder="">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Tiempo</label>
+                        <label>
+                            <input type="text" name="time" placeholder="">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Cw</label>
+                        <label>
+                            <input type="text" name="cw" placeholder="">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Cs</label>
+                        <label>
+                            <input type="text" name="cs" placeholder="">
+                        </label>
+                    </div>
+                    <button type="submit">Calcular</button>
+                </fieldset>
+            </form>
+
+            <div id="result"></div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
